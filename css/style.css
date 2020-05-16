@@ -371,6 +371,14 @@ input, textarea {
 
 
 @media only screen and (max-width: 1000px) {
+
+    nav {
+    display: none;
+}
+   .bg-1 {
+    background-image: url(../img/2614793-1.jpg);
+    min-height: 800px;
+}
 	.row {
 	display: inline-grid;
 	grid-template-columns: auto auto;
@@ -378,7 +386,7 @@ input, textarea {
 	text-align: center;
 }
 
-.icontext img {
+    .icontext img {
     max-width: 30%;
 }
 
@@ -390,14 +398,15 @@ input, textarea {
     	display: inline-table;
     }
 
+
     .nav-bar li {
         display: none;
     }
 
-    .bg-1 {
-    background-image: url(../img/2614793-1.jpg);
+   .bg-1 {
+    background-image: url(../img/2614793-2.jpg);
+    min-height: 800px;
 }
-
     .center {
 	text-align: center;
     padding-left: 5%;
