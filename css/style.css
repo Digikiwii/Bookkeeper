@@ -48,12 +48,12 @@ html{
 	color: #e50303;
 }
 
-
-
-.cart-sm {
-	width: 2rem;
-	border-radius: 50%;
+.nav-bar a:hover {
+	opacity: 0.4;
+    background: #fff;
 }
+
+
 
 
 .logo {
@@ -72,7 +72,7 @@ html{
 .bg-1{
 	width: 100%;
     height: 100%;
-    background-image: url(img/2614793.jpg);
+    background-image: url(../img/2614793.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     /*background-color: #fff;*/
@@ -94,6 +94,11 @@ html{
 
 .column {
 	flex: 25%;
+	padding: 20px;
+}
+
+.column-1 {
+	flex: 20%;
 	padding: 20px;
 }
 
@@ -357,6 +362,56 @@ input, textarea {
 
 
 
+@media only screen and (max-width: 600px) {
+    div {
+    	display: table;
+    }
+
+    .nav-bar li {
+        display: none;
+    }
+
+    .bg-1 {
+    background-image: url(../img/2614793-1.jpg);
+}
+
+    .center {
+	text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 1%;
+}
+    .container-left {
+	width: 100%;
+}
+    .container-img-left {
+	max-width: 100%;
+	
+}
+    .center-2 {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+.container-right {
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+	justify-content: center;
+	align-items: center;
+	margin-left: 5%;
+	text-align: center;
+}
+
+.container-img-right {
+	max-width: 100%;
+	display: table-footer-group;
+
+}
+
+
+}
 
 
 .footer {
