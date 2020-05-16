@@ -389,6 +389,11 @@ input, textarea {
     .icontext img {
     max-width: 30%;
 }
+    
+    .footer {
+	padding: 20px;
+}
+
 
 }
     
