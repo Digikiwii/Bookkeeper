@@ -211,6 +211,7 @@ a {
     letter-spacing: .05em;
 }
 
+
 a:hover {
 	opacity: 0.4;
     background: white;
@@ -399,6 +400,10 @@ input, textarea {
     
 
 @media only screen and (max-width: 600px) {
+    h1 {
+	text-align: center;
+}
+    
     div {
     	display: inline-table;
     }
