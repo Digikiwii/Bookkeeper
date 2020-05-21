@@ -105,6 +105,48 @@ html{
 .icontext {
 	text-align: center;
 }
+
+
+
+.imgtext-r {
+	font-size: 10px;
+	text-align: right;
+}
+
+.imgtext-f {
+	font-size: 10px;
+	text-align: left;
+}
+
+.imgtext-r a {
+	font-family: 'PT Acumin Variable Concept', sans-serif;
+	font-weight: normal;
+	font-size: 10px;
+	color: #000;
+}
+
+.imgtext-f a {
+	font-family: 'PT Acumin Variable Concept', sans-serif;
+	font-weight: normal;
+	font-size: 10px;
+	color: #000;
+}
+
+.imgtext-c {
+	font-family: 'PT Acumin Variable Concept', sans-serif;
+	font-weight: normal;
+	font-size: 12px;
+	color: #707070;
+}
+
+.imgtext-c a{
+	font-family: 'PT Acumin Variable Concept', sans-serif;
+	font-weight: normal;
+	font-size: 12px;
+	color: #000;
+}
+
+
 .icontext img{
 	max-width: 45%;
 }
@@ -387,6 +429,14 @@ input, textarea {
 	text-align: center;
 }
 
+.imgtext-r {
+	text-align: center;
+}
+
+.imgtext-f {
+	text-align: center;
+}
+
     .icontext img {
     max-width: 30%;
 }
@@ -403,7 +453,7 @@ input, textarea {
     h1 {
 	text-align: center;
 }
-    
+
     div {
     	display: inline-table;
     }
